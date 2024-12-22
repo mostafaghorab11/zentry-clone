@@ -92,6 +92,7 @@ function NavBar() {
                 ref={audioElementRef}
                 loop
                 className="hidden"
+                autoPlay
               />
               {[1, 2, 3, 5].map((bar) => (
                 <div
